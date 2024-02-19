@@ -121,7 +121,7 @@ export default function Login() {
             <label className="text-sm font-medium" htmlFor="password">
               <span className="block text-gray-700">Password</span>
               <span className="block font-light text-gray-700">
-                Must have at least 6 characters.
+                Must have at least six characters.
               </span>
               {actionData?.errors?.password && (
                 <span className="pt-1 text-red-700" id="password-error">
