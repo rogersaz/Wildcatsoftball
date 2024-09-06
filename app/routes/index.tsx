@@ -3,8 +3,8 @@ import { useOptionalUser } from "~/utils";
 
 export const meta: V2_MetaFunction = () => {
   return [
-    { title: "Willow Canyon Softball Golf Tournament" },
-    { name: "description", content: "fundraiser for the 2x State championship softball team." }
+    { title: "chYOUz Home Page - Personalized Songs for Your Slideshows" },
+    { name: "description", content: "Personalized songs created by chYOUz for custom slideshows and special occasions." }
   ];
 };
 
@@ -18,16 +18,15 @@ export default function Index() {
             <div className="absolute inset-0 flex justify-center">
               <img
                 className="h-full w-full object-cover"
-                src="https://github.com/rogersaz/Wildcatsoftball/blob/main/public/Golfball-Teed-up.jpg"
-                alt="Wildcat Softball tournament fundraiser"
+                src="https://github.com/rogersaz/chYOUz-2/blob/main/public/chYOUz-Background-Pages.jpg?raw=true"
+                alt="chYOUz custom music for your custom slideshows"
               />
               <div className="absolute inset-0 bg-[color:rgba(139,92,246,0.5)] mix-blend-multiply" />
             </div>
             <div className="lg:pb-18 relative px-12 pt-16 pb-8 sm:px-12 sm:pt-24 sm:pb-14 lg:px-16 lg:pt-32">
               <h1 className="text-center text-6xl font-extrabold sm:text-8xl lg:text-9xl font-montserrat tracking-normal sm:tracking-tighter">
                 <span className="text-orange-500 drop-shadow-md">
-
-                        ch<span className="text-7xl sm:text-9xl lg:text-10xl">YOU</span>z      
+                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ch<span className="text-7xl sm:text-9xl lg:text-10xl">YOU</span>z &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 </span>
               </h1>
               <p className="mx-auto -mt-4 max-w-lg text-center text-xl text-white sm:max-w-3xl font-montserrat">
@@ -49,7 +48,6 @@ export default function Index() {
                     >
                       Order
                     </Link>
-                    {/* 
                     <Link
                       to="/about"
                       className="flex items-center justify-center rounded-md bg-blue-500 px-4 py-3 font-medium text-white hover:bg-blue-600 font-montserrat"
@@ -80,7 +78,6 @@ export default function Index() {
                     >
                       BUY NOW
                     </a>
-                    */}
                   </div>
                 )}
               </div>
