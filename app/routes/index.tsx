@@ -1,7 +1,7 @@
-import { Link, MetaFunction } from "@remix-run/react";
+import { Link, V2_MetaFunction } from "@remix-run/react";
 import { useOptionalUser } from "~/utils";
 
-export const meta: MetaFunction = () => {
+export const meta: V2_MetaFunction = () => {
   return [
     { title: "Willow Canyon Softball Golf Tournament" },
     { name: "description", content: "fundraiser for the 2x State championship softball team." }
@@ -26,7 +26,8 @@ export default function Index() {
             <div className="lg:pb-18 relative px-12 pt-16 pb-8 sm:px-12 sm:pt-24 sm:pb-14 lg:px-16 lg:pt-32">
               <h1 className="text-center text-6xl font-extrabold sm:text-8xl lg:text-9xl font-montserrat tracking-normal sm:tracking-tighter">
                 <span className="text-orange-500 drop-shadow-md">
-                  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ch<span className="text-7xl sm:text-9xl lg:text-10xl">YOU</span>z &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+                        ch<span className="text-7xl sm:text-9xl lg:text-10xl">YOU</span>z      
                 </span>
               </h1>
               <p className="mx-auto -mt-4 max-w-lg text-center text-xl text-white sm:max-w-3xl font-montserrat">
